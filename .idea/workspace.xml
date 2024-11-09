@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3003ac2-b172-4a1d-bfcf-ab19e872e7ad" name="更改" comment="提交">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d3003ac2-b172-4a1d-bfcf-ab19e872e7ad" name="更改" comment="优化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/au/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/au/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/au/client/utill/GetMouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/au/client/utill/GetMouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/au/client/client/NIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/au/client/client/NIOClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +122,7 @@
       <workItem from="1731158976640" duration="97000" />
       <workItem from="1731159081838" duration="121000" />
       <workItem from="1731160433757" duration="5500000" />
-      <workItem from="1731166023013" duration="1819000" />
+      <workItem from="1731166023013" duration="2731000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <option name="closed" value="true" />
@@ -133,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731167565843</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="优化">
+      <option name="closed" value="true" />
+      <created>1731168019686</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731168019686</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +149,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

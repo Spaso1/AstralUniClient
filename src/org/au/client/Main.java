@@ -7,6 +7,7 @@ import org.au.client.server.NIOServer;
 import org.au.client.utill.*;
 
 import java.awt.*;
+import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.lang.reflect.Field;
 import java.util.*;
@@ -143,6 +144,9 @@ public class Main {
             String cmd = key.toUpperCase().replace(" ","");
             if(cmd.equals("BACKSPACE")) {
                 cmd = "BACK_SPACE";
+            }
+            if(cmd.equals("META")) {
+                cmd = "WINDOWS";
             }
             String fieldName = "VK_" + cmd;
 

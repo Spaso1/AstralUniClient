@@ -245,6 +245,7 @@ public class NIOClient {
                 }
             }
         }else {
+            System.out.println(res[0]);
             if (maincode) {
                 GetMouse.isUse = false;
                 if(a2) {
