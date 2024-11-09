@@ -35,7 +35,15 @@ public class Main {
         }else if(args[0].contains("-client")){
             logger.info("客户端模式");
             try {
-                if(args[1].equals("-main")) {
+                try {
+                    if (args[1].contains(":")) {
+                        GetMouse.TIME_WINDOW_MS = Integer.parseInt(args[1].split(":")[1]);
+                        logger.info("鼠标位移检测时间窗口:" + GetMouse.TIME_WINDOW_MS);
+                    }
+                }catch (Exception e) {
+                    e.printStackTrace();
+                }
+                if(args[1].contains("-main")) {
                     // 注册键盘监听器
                     logger.info("作为主客户端");
                     logger.info("注册键盘监听器");
@@ -59,6 +67,7 @@ public class Main {
                     NIOClient.maincode = true;
                     logger.info("组合键检测启动");
                     CheckList.check();
+
                 }else {
                     DisplayResolution resolution = new DisplayResolution();
                     x = resolution.returnResolution()[0];

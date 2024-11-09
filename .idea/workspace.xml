@@ -9,34 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3003ac2-b172-4a1d-bfcf-ab19e872e7ad" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/AstralUniClient_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jnativehook_2_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AstralUniClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auc/server.prop" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/JNativeHook-2.2.2.x86_64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/com.sun.jna.platform-5.8.0.v20210406-1004.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jnativehook-2.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/au/client/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/au/client/client/NIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/au/client/server/NIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/CheckList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/DisplayResolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/GetKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/GetMouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/MouseShield.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/OutCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/RobotController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/SimpleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/safe/AES256GCM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/test/TransparentPanelWindow.java" afterDir="false" />
+    <list default="true" id="d3003ac2-b172-4a1d-bfcf-ab19e872e7ad" name="更改" comment="提交">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/au/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/au/client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/au/client/utill/GetMouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/au/client/utill/GetMouse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,30 +42,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AstralUniClient/lib/com.sun.jna.platform-5.8.0.v20210406-1004.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.5954023&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/AstralUniClient/lib/com.sun.jna.platform-5.8.0.v20210406-1004.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5954023",
+    "settings.editor.selected.configurable": "swagger",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AstralUniClient\lib" />
@@ -114,7 +92,7 @@
     <configuration name="client" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.au.client.Main" />
       <module name="AstralUniClient" />
-      <option name="PROGRAM_PARAMETERS" value="-client:127.0.0.1:8000 -main" />
+      <option name="PROGRAM_PARAMETERS" value="-client:127.0.0.1:8000 -main:500" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,8 +123,17 @@
       <workItem from="1731158976640" duration="97000" />
       <workItem from="1731159081838" duration="121000" />
       <workItem from="1731160433757" duration="5500000" />
-      <workItem from="1731166023013" duration="1200000" />
+      <workItem from="1731166023013" duration="1819000" />
     </task>
+    <task id="LOCAL-00001" summary="提交">
+      <option name="closed" value="true" />
+      <created>1731167565843</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731167565843</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,5 +141,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

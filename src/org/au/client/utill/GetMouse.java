@@ -17,7 +17,7 @@ public class GetMouse  implements NativeMouseListener, NativeMouseInputListener 
     private long lastRecordTime = System.currentTimeMillis();
     public static boolean isUse = true;
     public static boolean isMoveFrame = false;
-    private static final long TIME_WINDOW_MS = 100; // 时间窗口，单位毫秒
+    public static long TIME_WINDOW_MS = 100; // 时间窗口，单位毫秒
     private int accumulatedRotation = 0;
     private Timer timer = new Timer();
     @Override
