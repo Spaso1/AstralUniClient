@@ -14,8 +14,9 @@ import static org.au.client.Main.*;
 public class GetKey implements NativeKeyListener {
     @Override
     public void nativeKeyPressed(NativeKeyEvent e) {
-        System.out.println("KeyPressed:" + NativeKeyEvent.getKeyText(e.getKeyCode()));
+        //System.out.println("KeyPressed:" + NativeKeyEvent.getKeyText(e.getKeyCode()));
         NIOClient.addMessage("KeyPressed:" + NativeKeyEvent.getKeyText(e.getKeyCode()));
+        //System.out.println("KeyPressed:" + NativeKeyEvent.getKeyText(e.getKeyCode()));
         if (!list.contains(NativeKeyEvent.getKeyText(e.getKeyCode()))) {
             list.add(NativeKeyEvent.getKeyText(e.getKeyCode()));
         }
@@ -23,7 +24,7 @@ public class GetKey implements NativeKeyListener {
     }
     @Override
     public void nativeKeyReleased(NativeKeyEvent e) {
-        System.out.println("KeyReleased:" + NativeKeyEvent.getKeyText(e.getKeyCode()));
+        //System.out.println("KeyReleased:" + NativeKeyEvent.getKeyText(e.getKeyCode()));
         NIOClient.addMessage("KeyReleased:" + NativeKeyEvent.getKeyText(e.getKeyCode()));
         list.remove(NativeKeyEvent.getKeyText(e.getKeyCode()));
     }

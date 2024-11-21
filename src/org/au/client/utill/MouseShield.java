@@ -14,12 +14,12 @@ import java.awt.image.BufferedImage;
 import java.util.logging.Logger;
 
 public class MouseShield {
-    private static JFrame frame;
-    private SimpleLogger logger = new SimpleLogger(MouseShield.class.getName(), SimpleLogger.Level.INFO);
+    protected static JFrame frame;
+    private static SimpleLogger logger = new SimpleLogger(MouseShield.class.getName(), SimpleLogger.Level.INFO);
     public MouseShield() throws Exception {
         // 创建1像素点的JFrame窗口
         frame = new JFrame();
-        frame.setSize(100, 100);
+        frame.setSize(400, 400);
         frame.setUndecorated(true); // 设置为无边框
         frame.setBackground(new Color(0, 0, 0, 10)); // 透明背景
         frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE); // 不关闭程序
@@ -40,18 +40,22 @@ public class MouseShield {
         g2d.dispose();
         // 创建自定义鼠标指针
         Cursor customCursor = Toolkit.getDefaultToolkit().createCustomCursor(transparentImage, new Point(0, 0), "invisible");
-// 设置自定义鼠标指针
+// 设置自定义鼠标指针V
         frame.setCursor(customCursor);
         // 确保窗口在屏幕上可见
         frame.setVisible(true);
         // 将窗口移到屏幕中央
         frame.setLocation(0,0);
-        logger.info("已屏蔽鼠标在本机操作,键盘系统级快捷键无法屏蔽");
+        logger.info("已成功");
     }
     public void move(int x, int y) {
         frame.setLocation(x, y);
     }
     public static void shutdown() {
-        frame.dispose();
+        try {
+            frame.dispose();
+        }catch (Exception e) {
+            logger.info("您是否已经在本桌面");
+        }
     }
 }

@@ -10,9 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3003ac2-b172-4a1d-bfcf-ab19e872e7ad" name="更改" comment="优化">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_sun_jna_platform_5_8_0_v20210406_1004.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log-2024-11-14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log-2024-11-17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/CustomTextArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/NTPTimeProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/RightSideTextArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/WindowsNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/au/client/utill/test/TestWindowsNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstralUniClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AstralUniClient.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auc/server.prop" beforeDir="false" afterPath="$PROJECT_DIR$/auc/server.prop" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/au/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/au/client/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/au/client/client/NIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/au/client/client/NIOClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/au/client/utill/CheckList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/au/client/utill/CheckList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/au/client/utill/GetKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/au/client/utill/GetKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/au/client/utill/GetMouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/au/client/utill/GetMouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/au/client/utill/MouseShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/au/client/utill/MouseShield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/au/client/utill/SimpleLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/au/client/utill/SimpleLogger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +45,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -41,37 +64,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/AstralUniClient/lib/com.sun.jna.platform-5.8.0.v20210406-1004.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.5954023",
-    "settings.editor.selected.configurable": "swagger",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AstralUniClient/lib/com.sun.jna.platform-5.8.0.v20210406-1004.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5954023&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AstralUniClient\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.client">
+  <component name="RunManager" selected="应用程序.Server">
     <configuration name="测试" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.au.client.Main" />
       <module name="AstralUniClient" />
@@ -91,7 +114,7 @@
     <configuration name="client" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.au.client.Main" />
       <module name="AstralUniClient" />
-      <option name="PROGRAM_PARAMETERS" value="-client:127.0.0.1:8000 -main:500" />
+      <option name="PROGRAM_PARAMETERS" value="-client:127.0.0.1:8000 -main:100" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,7 +145,28 @@
       <workItem from="1731158976640" duration="97000" />
       <workItem from="1731159081838" duration="121000" />
       <workItem from="1731160433757" duration="5500000" />
-      <workItem from="1731166023013" duration="2731000" />
+      <workItem from="1731166023013" duration="2736000" />
+      <workItem from="1731205770544" duration="9000" />
+      <workItem from="1731205811651" duration="1354000" />
+      <workItem from="1731207182364" duration="1581000" />
+      <workItem from="1731215143291" duration="197000" />
+      <workItem from="1731224579434" duration="4923000" />
+      <workItem from="1731236094166" duration="785000" />
+      <workItem from="1731238883649" duration="321000" />
+      <workItem from="1731243785026" duration="1869000" />
+      <workItem from="1731298152579" duration="2558000" />
+      <workItem from="1731318518456" duration="3000" />
+      <workItem from="1731593051128" duration="1000" />
+      <workItem from="1731593055642" duration="3338000" />
+      <workItem from="1731645225464" duration="1080000" />
+      <workItem from="1731659882525" duration="796000" />
+      <workItem from="1731660720569" duration="8547000" />
+      <workItem from="1731719230712" duration="348000" />
+      <workItem from="1731744036332" duration="222000" />
+      <workItem from="1731809587136" duration="771000" />
+      <workItem from="1731848018189" duration="1987000" />
+      <workItem from="1731895104349" duration="2308000" />
+      <workItem from="1732102165188" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <option name="closed" value="true" />
@@ -140,11 +184,30 @@
       <option name="project" value="LOCAL" />
       <updated>1731168019686</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="优化">
+      <option name="closed" value="true" />
+      <created>1731168770688</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731168770688</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
