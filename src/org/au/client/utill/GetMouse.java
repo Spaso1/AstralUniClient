@@ -72,7 +72,7 @@ public class GetMouse  implements NativeMouseListener, NativeMouseInputListener 
             long currentTime = System.currentTimeMillis();
             if (currentTime - lastRecordTime >= TIME_WINDOW_MS) { // 100 毫秒 = 0.1 秒
                 if(Main.type==0) {
-                    logger.debug("MouseMove: (" + e.getX() + ", " + e.getY() + ")");
+                    //logger.debug("MouseMove: (" + e.getX() + ", " + e.getY() + ")");
                 }
                 // 鼠标移动事件
                 double tag_x = (double) e.getX() / x;
